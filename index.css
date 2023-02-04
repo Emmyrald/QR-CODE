@@ -87,12 +87,15 @@ a{
 
 @media screen and (max-width: 375px){
 
+    *{
+        background-color: hsl(212, 45%, 89%);
+    }
     .first{
         max-width: 370px;
         margin: 5px 0px;
         padding: 5px 37px;
         display: inline-block;
-        
+        background-color: hsl(212, 45%, 89%);
     }
 
     .whitey{
