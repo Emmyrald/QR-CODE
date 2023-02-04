@@ -1,0 +1,88 @@
+/* Heading */
+
+
+*{
+    background-color: hsl(212, 45%, 89%);
+    
+}
+
+.first{
+    max-width: 1440px;
+    display: grid;
+    box-sizing: border-box;
+    background-color: hsl(212, 45%, 89%);
+    padding: 20px;
+    justify-content: center;
+    /* align-items: center; */
+    grid-template-columns: 20%;
+    margin: 30px ;
+    
+    
+}
+
+.whitey{
+    display: grid;
+    box-sizing: border-box;
+    border-radius: 15px;
+    height: 450px;
+    align-items: center;
+    max-width: 450px;
+    background-color:white;
+    width: 280px;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    background-color:white;
+    justify-content: center;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+
+}
+.image{
+    max-width: 350px;
+    width: 260px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: white;
+    position: relative;
+    right: 5px;
+}
+
+section{
+    text-align: center;
+    /* max-width: 80%; */
+    padding: 0px 10px;
+    background-color: white;
+}
+
+div,p{
+    background-color: white;
+    font-family: sans-serif;
+    padding: 0px 5px;
+}
+
+.pa{
+    font-size: 18px;
+    position: relative;
+    bottom: 20px;
+    font-weight: bold;
+}
+
+.pb{
+    font-size: 14px;
+    position: relative;
+    bottom: 20px;
+}
+
+a{
+    background-color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 375px){
+
+}
