@@ -3,6 +3,7 @@
 
 *{
     background-color: hsl(212, 45%, 89%);
+    /* font-family: "Outfit", serif ; */
     
 }
 
@@ -61,7 +62,6 @@ section{
 
 div,p{
     background-color: white;
-    font-family: sans-serif;
     padding: 0px 5px;
 }
 
@@ -69,13 +69,15 @@ div,p{
     font-size: 18px;
     position: relative;
     bottom: 20px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .pb{
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 400;
     position: relative;
     bottom: 20px;
+    padding: 0px 15px ;
 }
 
 a{
@@ -84,5 +86,37 @@ a{
 }
 
 @media screen and (max-width: 375px){
+
+    .first{
+        max-width: 370px;
+        margin: 5px 0px;
+        padding: 5px 37px;
+        display: inline-block;
+        
+    }
+
+    .whitey{
+        display: inline-block;
+        box-sizing: border-box;
+        max-width: 300px;
+        width: 280px;
+    }
+
+    .images{
+        display: inline-block;
+        box-sizing: border-box;
+        max-width: 280px;
+        padding: 10px 5px ;
+        background-color: white;
+
+    }
+    .image{
+        max-width: 280px;
+        width: 260px;
+        height: 250px;
+        border-radius: 15px;
+        position: static;
+    }
+
 
 }
